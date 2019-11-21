@@ -5,6 +5,7 @@ Show more items after every click on a "show-more" button.
 
 
 ## Usage
+```js
 new ShowMore({
   container: container, // [node] container which holds your items
   items: items, // [array] your items
@@ -12,3 +13,4 @@ new ShowMore({
   defaultItemsToShow: 4, // how many items to show on default
   amountOfItemsToShow: 2, // how many items to show additionally on click
 }).init();
+```
